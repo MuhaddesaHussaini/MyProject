@@ -22,14 +22,24 @@
     margin-left: 20px;
 }
 
-.nav input {
-    width: 250px;
+.gallery{
+    width: 70px;
     height: 30px;
     margin-left: 20px;
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.9);
+}
+
+.nav input {
+    width: 250px;
+    height: 32px;
+    margin-left: 20px;
     border: 3px solid transparent;
-    border-image: var(--border-color);
-
-
+    box-shadow: 0 0 0 0.8px black;
+    border-radius: 20px;
 }
 
 input[type="search"] {
@@ -40,8 +50,6 @@ input[type="search"] {
 input[type="search"]:hover {
     direction: rtl;
     text-align: right;
-    transform: scale(1.111);
-    transition: transform 0.3s ease;
 }
 
 .nav img {
@@ -64,6 +72,11 @@ input[type="search"]:hover {
     margin-left: 20px;
 }
 
+.sign-in a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .register {
     width: 70px;
     height: 30px;
@@ -74,6 +87,11 @@ input[type="search"]:hover {
     background-clip: padding-box, border-box;
     font-weight: bold;
     margin-left: 10px;
+}
+
+.register a{
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .sign-in:hover {
@@ -108,7 +126,7 @@ ul {
     margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 20px;
+    gap: 18px;
     width: 100%;
     position: relative;
     border-radius: 10px;
@@ -241,7 +259,6 @@ ul a:hover {
 
 .history .history-text {
     margin-right: 350px;
-
     margin-top: 40px;
     text-align: center;
     direction: rtl;
@@ -287,3 +304,157 @@ p {
 }
 
 
+#240284
+#1B0042
+
+.card{
+    padding: 20px 0 0 0;
+    
+}
+
+.section-title{ 
+    margin-top: -100px;
+    color: #5b00b7;
+}
+
+.section-title h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    direction: rtl; 
+    text-align: right;
+    margin-right: 50px;
+}
+
+.section-title p{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 15px 15px 15px;
+}
+
+.card-card{
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.4s;
+}
+
+.card-card:hover{
+    transform: translateY(-12px);
+}
+
+.card-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.card-image:hover img{
+    transform: scale(1.05);
+}
+
+.card-info h3{
+    text-align: center;
+}
+
+.card-info button{
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+}
+
+.card-info button:hover{
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.question{
+    direction: rtl;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: block;
+    
+    
+}
+
+.question .day-question{
+    margin-right: 0px;
+}
+
+.question h2{
+    color: #5b00b7;
+    border-bottom: 8px solid #5b00b7;
+}
+
+.question button{
+    display: block;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 30px;
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+
+.question button:hover{
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.footer img{
+    width: 160px;
+    margin-left: 1010px;
+    
+}
+
+.footer p{
+    text-align: right;
+    margin-right: 70px;
+}
+
+.left-section{
+    margin-right: 700px;
+    margin-top: -180px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 0.2;
+    padding: 0px;
+}
+
+.left-section h3{
+    margin-right: 70px;
+    color: #5b00b7;
+}
+
+.left-section i{
+    margin-top: -5px;
+    margin-left: 5px;
+}
