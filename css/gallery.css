@@ -35,7 +35,7 @@
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
     transition: 0.4s;
 }
 
@@ -64,11 +64,11 @@
     border-radius: 25px;
     border: none;
     color: white;
-    width: 180px;
-    height: 30px;
-    margin-top: 15px;
+    width: 150px;
+    height: 35px;
+    margin-top: 8px;
     margin-bottom: 20px;
-    margin-left: 52px;
+    margin-left: 15px;
 }
 
 .card-info button i{
@@ -81,3 +81,45 @@
     transition: transform 0.3s ease;
     cursor: pointer;
 }
+
+.card-info .heart{
+    display: inline-flex;
+    font-size: 1.2rem;
+    
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff012b;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.card-info .heart:hover{
+    color: #ff012b;
+    background: none;
+    transition: 0.5s;
+}
+
+.card-info .share{
+    display: inline-flex;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+    background: #5b00b7;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.card-info .share:hover{
+    color: #5b00b7;
+    background: none;
+    transition: 0.5s;
+}
+

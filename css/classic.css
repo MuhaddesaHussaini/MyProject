@@ -199,12 +199,16 @@ ul .active {
     color: #fff;
     background: transparent;
     margin-top: -80px;
-    margin-right: 145px;
+    margin-right: 120px;
 }
 
 .banner-right p{
     margin-top: -10px;
-    margin-right: 165px;
+    margin-right: 200px;
+}
+
+.banner-right h1{
+    font-size: 42px;
 }
 
 .history {
