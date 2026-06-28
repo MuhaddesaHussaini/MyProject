@@ -268,7 +268,8 @@ ul .active {
 }
 
 .history .history-text {
-    margin-right: 350px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 40px;
     text-align: center;
     direction: rtl;
@@ -313,10 +314,6 @@ p {
     direction: rtl;
 }
 
-
-#240284
-#1B0042
-
 .card{
     padding: 20px 0 0 0;
     
@@ -354,7 +351,7 @@ p {
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     transition: 0.4s;
 }
 
