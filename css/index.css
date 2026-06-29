@@ -282,7 +282,7 @@ ul .active {
 
 .timeline img {
     width: 108%;
-    margin-top: -40px;
+    margin-top: 10px;
     margin-right: -20px;
     float: right;
 }
@@ -292,6 +292,7 @@ ul .active {
     flex-direction: column;
     white-space: nowrap;
     margin-right: -80px;
+    margin-top: -10px;
 }
 
 .timeline ul li {
@@ -312,6 +313,7 @@ p {
     margin-right: 50px;
     margin-top: 5px;
     direction: rtl;
+    line-height: 25px;
 }
 
 .card{
@@ -330,6 +332,7 @@ p {
     direction: rtl; 
     text-align: right;
     margin-right: 50px;
+    gap: 10px;
 }
 
 .section-title p{

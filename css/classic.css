@@ -49,7 +49,7 @@
 .timeline img {
     width: 140%;
     height: auto;
-    margin-top: 1px;
+    margin-top: 30px;
     margin-right: -100px;
 }
 
@@ -58,7 +58,7 @@
     flex-direction: column;
     white-space: nowrap;
     margin-right: 80px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .timeline ul li {
@@ -79,6 +79,7 @@ p {
     margin-right: 90px;
     margin-top: 5px;
     direction: rtl;
+    line-height: 25px;
 }
 
 .card{
@@ -158,9 +159,10 @@ p {
 }
 
 .modern-link .arrow {
-    color: #fff;
+    text-decoration: none;
     background: transparent;
-    font-size: 15px;
+    color: #fff;
+    border: none;
 }
 
 .modern-link button a{
