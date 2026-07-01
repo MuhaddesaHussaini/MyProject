@@ -2,7 +2,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px;
-    background-image: url(../folder/inertia1.gif);
+    background-image: url(../folder/inertia.gif);
     background-size: cover;
     box-shadow: inset 0 0 50px rgba(186, 85, 211, 0.1);
     background-position: center;
@@ -114,6 +114,53 @@ p {
     font-size: 18px;
     border-bottom: 2px solid #5b00b7;
     color: #5b00b7;
+}
+
+.body-text button{
+    border: 2px solid #5b00b7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    float: left;
+}
+
+.body-text a, i{
+    background-color: transparent;
+}
+
+.body-text button:hover{
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border: #fff;
+}
+
+.body-text button:hover i{
+    color: #fff;
+    
+}
+
+.belt{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    margin-top: 70px;
+    display: block;
+    padding: 20px;
+}
+
+.belt h2{
+    color: #fff;
+    background: transparent;
+    direction: rtl;
+    margin-right: 90px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.belt p{
+    color: #fff;
+    background-color: transparent;
+    margin-left: 30px;
 }
 
 .modern-link{
