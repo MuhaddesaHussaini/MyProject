@@ -232,6 +232,10 @@ ul .active {
 
 }
 
+.banner-right a{
+    background: transparent;
+}
+
 .banner-right button:hover {
     margin-top: 20px;
     background: #000;
