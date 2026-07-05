@@ -1,14 +1,16 @@
 .banner {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px;
     background-image: url(../folder/classic-banner.png);
-    background-size: cover;
+    background-size: 100%;
     box-shadow: inset 0 0 50px rgba(186, 85, 211, 0.1);
     background-position: center;
-    width: 1125px;
-    min-height: 330px;
-    margin-top: 0;
+    background-repeat: no-repeat;
+    min-height: 335px;
+    margin-top: 40px;
+    padding-top: 130px;
 }
 
 .banner-right,
@@ -17,7 +19,7 @@
     
     color: #fff;
     background: transparent;
-    margin-top: -40px;
+    margin-top: -80px;
     margin-right: 0px;
 }
 
@@ -73,36 +75,36 @@
 }
 
 .timeline img {
-    width: 140%;
+    width: 105%;
     height: auto;
-    margin-top: 30px;
-    margin-right: -100px;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 .timeline-text ul {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
-    margin-right: 80px;
-    margin-top: 10px;
+    margin-right: 70px;
+    margin-top: 30px;
 }
 
 .timeline ul li {
     font-size: 20px;
     text-align: right;
     display: flex;
-    margin-left: 680px;
+    margin-left: 700px;
     margin-top: 10px;
     direction: rtl;
     gap: 8px;
     color: #5b00b7;
 }
 
-p {
+.timeline p {
     font-size: 15px;
     text-align: right;
     display: flex;
-    margin-right: 90px;
+    margin-right: -100px;
     margin-top: 5px;
     direction: rtl;
     line-height: 25px;
@@ -122,11 +124,11 @@ p {
 .body-text{
     direction: rtl;
     margin-left: 80px;
+    margin-right: 80px;
 }
 
 .body-text h2{
     color: #5b00b7;
-    margin-right: 80px;
     margin-top: 60px;
 }
 
@@ -192,11 +194,12 @@ p {
 .modern-link{
     direction: rtl;
     text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .modern-link h2{
     color: #5b00b7;
-    margin-right: 80px;
     margin-top: 40px;
 }
 
@@ -204,12 +207,11 @@ p {
     line-height: 1.4;
     text-align: justify;
     display: block;
-    margin-left: 80px;
 }
 
 .tips{
     text-align: right;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 .modern-link button{
