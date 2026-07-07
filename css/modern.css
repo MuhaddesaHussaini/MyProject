@@ -10,7 +10,7 @@
     background-position: center;
     width: 1125px;
     min-height: 330px;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .banner-right,
@@ -101,7 +101,7 @@
 }
 
 .card{
-    margin-top: 30px;
+    padding: 20px 40px 0 40px;
 }
 
 .card-wrapper{
@@ -120,7 +120,7 @@
     height: 35px;
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .body-text{
@@ -183,7 +183,7 @@
     color: #fff;
     background: transparent;
     direction: rtl;
-    margin-right: 90px;
+    margin-right: 80px;
     margin-top: 10px;
     font-size: 25px;
 }
