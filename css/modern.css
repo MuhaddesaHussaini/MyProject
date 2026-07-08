@@ -155,9 +155,9 @@
     float: left;
 }
 
-.body-text a, i{
+.body-text a i{
     background-color: transparent;
-    color: #5b00b7;
+    color: #000;
 }
 
 .body-text button:hover{

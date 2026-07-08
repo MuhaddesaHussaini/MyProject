@@ -161,11 +161,6 @@ p {
     float: left;
 }
 
-.body-text a, i{
-    background-color: transparent;
-    color: #5b00b7;
-}
-
 .body-text button:hover{
     background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
     border: #fff;
