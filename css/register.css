@@ -9,7 +9,7 @@ body{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background: linear-gradient(190deg, rgba(143, 0, 186, 0.6), rgba(234, 0, 255, 0.2)), url(../folder/login.jpg);
+	background: linear-gradient(to left, rgba(94, 2, 122, 0.6), rgba(217, 3, 237, 0.2)), url(../folder/login.jpg);
 	background-size: cover; 
 	background-repeat: no-repeat;
 }
