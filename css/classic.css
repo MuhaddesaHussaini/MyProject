@@ -74,33 +74,47 @@
     line-height: 25px;
 }
 
-.timeline img {
-    width: 105%;
+.container{
+    margin-top: -20px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    width: 1000px;
     height: auto;
-    margin-top: 20px;
-    margin-right: 40px;
-}
-
-.timeline-text ul {
+    direction: rtl;
     display: flex;
-    flex-direction: column;
-    white-space: nowrap;
-    margin-right: 70px;
-    margin-top: 30px;
+    
 }
 
-.timeline ul li {
+.container .right-section{
+    flex: 1;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.container .left-section{
+    flex: 0.8;
+}
+
+.container .left-section img{
+    width: 80%;
+    margin-top: 80px;
+    
+}
+
+.container ul li {
     font-size: 20px;
-    text-align: right;
-    display: flex;
-    margin-left: 700px;
-    margin-top: 10px;
+    list-style: none;
     direction: rtl;
     gap: 8px;
     color: #5b00b7;
+    margin-right: -100px;
+    margin-top: 40px;
 }
 
-.timeline p {
+.container p {
     font-size: 15px;
     text-align: right;
     display: flex;

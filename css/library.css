@@ -115,8 +115,8 @@
 .card-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 12px;
-    padding: 0 80px 15px 80px;
+    gap: 30px;
+    padding: 0px 80px 30px 80px;
 }
 
 .card-card{
@@ -141,11 +141,14 @@
     height: 420px;
     object-fit: cover;
     transition: 0.5s;
-  
 }
 
 .card-image:hover img{
     transform: scale(1.05);
+}
+
+.card-info{
+    gap: 8px;
 }
 
 .card-info button{
@@ -157,7 +160,7 @@
     height: 35px;
     margin-top: 8px;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 
 .card-info button i{
@@ -174,7 +177,6 @@
 .card-info .heart{
     display: inline-flex;
     font-size: 1.2rem;
-    
     width: 34px;
     height: 34px;
     border-radius: 30px;

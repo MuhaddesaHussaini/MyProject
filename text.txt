@@ -1,0 +1,8 @@
+<div class="timeline">
+        <div class="timeline-image">
+            <img src="folder/modern-history.jpg" alt="">
+        </div>
+        <div class="timeline-text">
+            
+        </div>
+    </div>
