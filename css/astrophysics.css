@@ -28,6 +28,7 @@
     margin-top: -10px;
     margin-right: 8px;
     font-size: 18px;
+    direction: rtl;
 }
 
 .banner-right h1{
@@ -176,71 +177,4 @@
     color: #fff;
     background-color: transparent;
     margin-left: 30px;
-}
-
-.modern-link{
-    direction: rtl;
-    text-align: center;
-}
-
-.modern-link h2{
-    color: #5b00b7;
-    margin-right: 80px;
-    margin-top: 40px;
-}
-
-.modern-link p{
-    line-height: 1.4;
-    text-align: justify;
-    display: block;
-    margin-left: 80px;
-}
-
-.tips{
-    text-align: right;
-    margin-right: 150px;
-}
-
-.modern-link button{
-    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
-    border-radius: 25px;
-    border: none;
-    color: white;
-    width: 280px;
-    height: 30px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: -800px;
-    font-size: 1rem;
-}
-
-.modern-link button:hover{
-    transform: scale(1.08);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.modern-link .arrow {
-    text-decoration: none;
-    background: transparent;
-    color: #fff;
-    border: none;
-}
-
-.modern-link button a{
-    text-decoration: none;
-    background: transparent;
-    color: #fff;
-}
-
-.modern-link span{
-    font-size: 18px;
-    border-bottom: 2px solid #5b00b7;
-    color: #5b00b7;
-}
-
-.footer-brand p{
-    line-height: 1.4;
-    color: #000;
-    margin-right: 50px;
 }
