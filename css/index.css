@@ -549,6 +549,8 @@ input[type="search"]:focus {
 }
 
 
+/* Responsive Section */
+
 @media (max-width: 900px) {
     body {
         box-sizing: border-box;
