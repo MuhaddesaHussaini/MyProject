@@ -106,7 +106,8 @@
     height: 35px;
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    display: block;
+    margin-inline: auto;
 }
 
 .body-text{
@@ -177,4 +178,71 @@
     color: #fff;
     background-color: transparent;
     margin-left: 30px;
+}
+
+@media (max-width: 900px) {
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0 15px 15px 15px;
+    }
+
+    .card-info button {
+    width: 200px;
+}
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .footer-brand img {
+        width: 200px;
+    }
+
+    .footer-social {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .footer-social {
+        padding-bottom: 20px;
+    }
+
+    .footer-heading {
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 40px;
+        font-size: 25px;
+    }
+
+    .footer-link {
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .contact-list {
+        text-align: center;
+        padding-right: 90px
+    }
 }

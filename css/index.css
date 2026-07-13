@@ -18,10 +18,11 @@
     position: fixed;
     margin-top: -8px;
     right: 3px;
-    left: 8px;
+    left: 0px;
     z-index: 1000;
     border-bottom: 1px solid #000;
     height: 60px;
+    width: 100%;
 }
 
 .gallery {
@@ -116,7 +117,7 @@ input[type="search"]:focus {
     margin-top: -20px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 40px;
+    gap: 30px;
     width: 100%;
     margin-left: -180px;
     background-color: transparent;
@@ -149,7 +150,7 @@ input[type="search"]:focus {
     color: #000;
 }
 
-.menubar>ul>li>a {
+.menubar ul li a {
     text-decoration: none;
     font-weight: bold;
     color: var(--text-color);
@@ -157,8 +158,8 @@ input[type="search"]:focus {
     justify-content: center;
 }
 
-.menubar>li>.menu-item:hover,
-.menubar>li>.menu-item.active {
+.menubar li .menu-item:hover,
+.menubar li .menu-item.active {
     text-decoration: none;
     font-weight: bold;
     color: #7f00ff;
@@ -215,7 +216,7 @@ input[type="search"]:focus {
 .submenu li a:hover {
     color: #7f00ff;
     border-bottom: 3px solid #7f00ff;
-    transition: .2s;
+    transition: .12s;
 }
 
 .banner {
@@ -223,12 +224,12 @@ input[type="search"]:focus {
     align-items: center;
     padding: 60px;
     background-image: url(../folder/bg.png);
-    background-size: 100%;
+    background-size: cover;
     box-shadow: inset 0 0 50px rgba(186, 85, 211, 0.1);
     background-position: center;
     min-height: 335px;
     margin-top: 40px;
-    width: 90.7%;
+    width: 90.8%;
     padding-top: 130px;
 }
 
@@ -239,10 +240,10 @@ input[type="search"]:focus {
     color: #fff;
     float: right;
     background: transparent;
+    margin-top: -20px;
 }
 
 .banner-right h1 {
-    margin-left: 150px;
     font-weight: bold;
     font-size: 50px;
 }
@@ -274,20 +275,9 @@ input[type="search"]:focus {
 }
 
 .banner-right button:hover {
-    margin-top: 20px;
-    background: #000;
-    border: 3px solid transparent;
-    border-image: var(--border-color);
-    width: 110px;
-    height: 35px;
     transform: scale(1.15);
     transition: transform 0.3s ease;
     cursor: pointer;
-}
-
-.banner-left img {
-    width: 300px;
-    margin-right: 300px;
 }
 
 .arrow {
@@ -354,7 +344,7 @@ input[type="search"]:focus {
     transform: scale(1.05);
 }
 
-.card-info{
+.card-info {
     align-items: center;
     justify-content: center;
 }
@@ -372,6 +362,12 @@ input[type="search"]:focus {
     height: 30px;
     margin-top: 5px;
     margin-bottom: 20px;
+    display: block;
+    margin-inline: auto;
+}
+
+.card-info a {
+    text-decoration: none;
 }
 
 .card-info button:hover {
@@ -397,11 +393,6 @@ input[type="search"]:focus {
     border-bottom: 8px solid #5b00b7;
 }
 
-.question h2 {
-    color: #5b00b7;
-    border-bottom: 8px solid #5b00b7;
-}
-
 .question button {
     display: block;
     margin-right: auto;
@@ -415,6 +406,10 @@ input[type="search"]:focus {
     border: none;
 }
 
+.question a {
+    text-decoration: none;
+}
+
 .question button:hover {
     transform: scale(1.08);
     transition: transform 0.3s ease;
@@ -425,13 +420,11 @@ input[type="search"]:focus {
     padding: 50px;
     background-color: #fff;
     direction: rtl;
-    width: 100%;
-    height: 280px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 300px;
+    height: 320px;
     margin-top: -20px;
 }
 
@@ -523,7 +516,7 @@ input[type="search"]:focus {
     line-height: 40px;
 }
 
-.footer-heading1{
+.footer-heading1 {
     text-align: center;
 }
 
@@ -557,16 +550,57 @@ input[type="search"]:focus {
 
 
 @media (max-width: 900px) {
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        background-image: url(../folder/bg.png);
+        background-size: 100%;
+        box-shadow: inset 0 0 50px rgba(186, 85, 211, 0.1);
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 220px;
+        margin-top: 40px;
+        width: 70%;
+        padding-top: 0px;
+    }
+
+    .banner-right button {
+    margin-top: 20px;
+    background: #000;
+    color: #fff;
+    border: 3px solid transparent;
+    border-image: var(--border-color);
+    width: 110px;
+    height: 35px;
+    margin-left: 300px;
+}
+
     .card-wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding: 0 15px 15px 15px;
     }
 
-    body {
-        box-sizing: border-box;
-    }
+    .card-info button {
+    width: 200px;
+}
 
     .footer {
         display: flex;
@@ -575,10 +609,10 @@ input[type="search"]:focus {
 
     .footer-brand {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
     }
 
-    .footer-brand img{
+    .footer-brand img {
         width: 200px;
     }
 
@@ -603,10 +637,14 @@ input[type="search"]:focus {
         margin-right: 40px;
     }
 
-    
-
     .contact-list {
         text-align: center;
         padding-right: 90px
     }
+}
+
+
+
+@media (max-width: 300px) {
+    
 }

@@ -96,11 +96,12 @@
     border-radius: 25px;
     border: none;
     color: white;
-    width: 250px;
+    width: 200px;
     height: 35px;
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: 50px;
+    display: block;
+    margin-inline: auto;
 }
 
 .card-info button:hover{
@@ -111,7 +112,7 @@
 
 .belt{
     width: 97%;
-    height: 120px;
+    height: auto;
     background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
     margin-top: 70px;
     display: block;
@@ -162,7 +163,8 @@
     height: 35px;
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: -800px;
+    display: block;
+    margin-inline: auto;
     font-size: 1rem;
 }
 

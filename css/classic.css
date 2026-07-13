@@ -183,7 +183,7 @@
 
 .belt{
     width: 97%;
-    height: 120px;
+    height: auto;
     background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
     margin-top: 70px;
     display: block;
@@ -194,7 +194,7 @@
     color: #fff;
     background: transparent;
     direction: rtl;
-    margin-right: 90px;
+    
     margin-top: 10px;
     font-size: 25px;
 }
@@ -202,7 +202,8 @@
 .belt p{
     color: #fff;
     background-color: transparent;
-    margin-left: 30px;
+    line-height: 1.5rem;
+    direction: rtl;
 }
 
 .modern-link{
@@ -270,4 +271,63 @@
     line-height: 1.4;
     color: #000;
     margin-right: 50px;
+}
+
+@media (max-width: 900px) {
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menubar{
+        display: none;
+    }
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0 15px 15px 15px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .footer-brand img{
+        width: 200px;
+    }
+
+    .footer-social {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .footer-social {
+        padding-bottom: 20px;
+    }
+
+    .footer-heading {
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 40px;
+        font-size: 25px;
+    }
+
+    .footer-link {
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .contact-list {
+        text-align: center;
+        padding-right: 90px
+    }
 }

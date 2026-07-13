@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/specific-scientist.css">
+    <link rel="stylesheet" href="css/contact-us.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -37,7 +37,7 @@
                     </li>
 
                     <li>
-                        <a href="scientists.html" class="menu-item active">
+                        <a href="scientists.html" class="menu-item">
                             <i class="fa-solid fa-chevron-down"></i>
                             دانشمندان
                         </a>
@@ -73,7 +73,7 @@
                     </li>
 
                     <li>
-                        <a href="contact-us.html" class="menu-item"> ارتباط با ما </a>
+                        <a href="library.html" class="menu-item active"> ارتباط با ما </a>
                     </li>
 
                 </ul>
@@ -84,80 +84,96 @@
 
     </nav>
 
-    <!-- Biography -->
     <div class="container">
-        <div class="right-section">
-            <h1> گالیلئو گالیله </h1>
-            <p>
-                گالیلو گالیله در سال ۱۵۶۴ در شهر پیزای ایتالیا متولد شد. او در ابتدا به اصرار پدرش به تحصیل در رشته
-                پزشکی پرداخت، اما طولی نکشید که شیفته ریاضیات و فیزیک شد و دانشگاه را بدون مدرک پزشکی رها کرد تا به
-                دنبال اشتیاق واقعی خود برود. گالیله ذهنی به شدت کنجکاو و پرسشگر داشت و هیچ فرضیه‌ای را بدون آزمایش علمی
-                قبول نمی‌کرد؛ همین ویژگی او را به «پدر علم تجربی مدرن» تبدیل کرد.
-                نقطه عطف زندگی گالیله در سال ۱۶۰۹ رقم خورد، زمانی که او خبر ساخت یک ابزار بزرگ‌نمایی ساده در هلند را
-                شنید. او بدون دیدن آن ابزار، خودش دست به کار شد و تلسکوپی با قدرت بسیار بیشتر ساخت و برای اولین بار آن
-                را رو به آسمان شب گرفت. مشاهدات او از ماه‌های سیاره مشتری، فازهای سیاره زهره و کوه‌های روی ماه،
-                بنیان‌های اخترشناسی آن زمان را فرو ریخت.
-                این کشفیات شواهد محکمی برای اثبات نظریه کوپرنیک (چرخش زمین به دور خورشید) بودند؛ ادعایی که کاملاً با
-                باورهای سنتی کلیسای کاتولیک در تضاد بود. در سال ۱۶۳۳، گالیله به دادگاه تفتیش عقاید احضار شد. او برای
-                نجات از اعدام و سوزانده شدن، مجبور شد علناً از ادعای خود دست بکشد. دادگاه او را به حبس ابد در خانه محکوم
-                کرد. گالیله ۸ سال پایانی عمر خود را در حصر خانگی و در نابینایی کامل سپری کرد، اما هرگز از نوشتن دست
-                برنداشت و کتاب‌های مخفیانه او به خارج از ایتالیا قاچاق و چاپ شدند تا اینکه در سال ۱۶۴۲ چشم از جهان
-                فروبست.
-            </p>
+        <h2> <i class="fa-regular fa-circle-user"></i> ارتباط با ما </h2>
+        <p> نظرات شما به بهبود سایت کمک می کند. همچنین می توانید مقالات علمی خود را ارسال کنید تا پس از بررسی، با نام
+            خود تان در سایت منتشر می گردد. </p>
+
+        <div class="container1">
+            <div class="right-section">
+
+                <label> نام: </label>
+                <br>
+                <input type="text" required>
+                <br>
+                <br>
+
+                <label> ایمیل آدرس: </label>
+                <br>
+                <input type="email" required>
+                <br>
+                <br>
+
+                <label> کشور: </label>
+                <select name="Country" />
+                <option value="اف" /> افغانستان </option>
+                <option value="ای" /> ایران </option>
+                <option value="تر" /> ترکیه </option>
+                <option value="جا" /> جاپان </option>
+                <option value="هن" /> هندوستان </option>
+                <option value="دیگر" /> غیره... </option>
+                </select>
+                <br>
+                <br>
+
+                <label> پیشنهاد: </label>
+                <br>
+                <textarea class="box"></textarea>
+                <br>
+                <br>
+
+                <input type="submit" value=" ارسال پیشنهاد " />
+
+            </div>
+
+            <div class="left-section">
+                <label> نام: </label>
+                <br>
+                <input type="text" required>
+                <br>
+                <br>
+
+                <label> ایمیل آدرس: </label>
+                <br>
+                <input type="email" required>
+                <br>
+                <br>
+
+                <label> مقطع تحصیلی: </label>
+                <select name="degree" />
+                <option value="دا" /> دانش آموز مکتب </option>
+                <option value="لی" /> دانشجو ( لیسانس ) </option>
+                <option value="ما" /> ماستری </option>
+                <option value="دک" /> دکترا و بالاتر </option>
+                <option value="عل" /> علاقمند به فزیک </option>
+                <option value="دیگر" /> غیره... </option>
+                </select>
+                <br>
+                <br>
+
+                <label> فایل مقاله علمی خود را آپلود کنید: </label>
+                <input type="button" value="انتخاب فایل">
+                <br>
+                <br>
+
+                
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                
+
+                <p> مقاله علمی شما بعد از بررسی، به آدرس
+                    <br>
+                    ایمیلی که فرستادید اطلاع داده خواهد شد.
+                </p>
+
+            </div>
+
         </div>
-
-        <div class="left-section">
-            <img src="folder/galila.png" alt="">
-        </div>
     </div>
 
-    <!-- Achievements -->
-    <div class="title">
-        بزرگ ترین دستاورد های گالیله
-    </div>
-    <div class="achievement">
-        <h2>
-            انقلاب در نجوم و رصد آسمان
-        </h2>
-        <p>
-            گالیله با ارتقا و ساخت یک تلسکوپ قدرتمند، برای اولین بار قمرهای سیاره مشتری و فازهای سیاره زهره را کشف کرد.
-            این مشاهدات تجربی ثابت کرد که همه چیز در جهان به دور زمین نمی‌چرخد و نظریه خورشیدمرکزی کوپرنیک کاملاً درست
-            است.
-        </p>
-    </div>
-
-    <div class="achievement">
-        <h2>
-            پایه گذاری فزیک حرکت و سقوط آزاد
-        </h2>
-        <p>
-            او با آزمایش‌های معروف خود (مانند رها کردن اشیاء از برج پیزا) ثابت کرد که برخلاف باورهای گذشته، اشیاء با
-            جرم‌های متفاوت در صورت نبود مقاومت هوا، با سرعت یکسانی سقوط می‌کنند. این کشف بزرگ، سنگ بنای مکانیک کلاسیک و
-            قوانین حرکت شد.
-        </p>
-    </div>
-
-    <div class="achievement">
-        <h2>
-            ابداع و تثبیت روش علمی تجربی
-        </h2>
-        <p>
-            گالیله علم فیزیک را از فلسفه محض و حدس و گمان‌های ذهنی جدا کرد. او اصرار داشت که هر تئوری و نظریه علمی در
-            جهان، حتماً باید با انجام آزمایش‌های مکرر، اندازه‌گیری‌های دقیق و فرمول‌های ریاضی سنجیده و اثبات شود.
-        </p>
-    </div>
-
-    <div class="achievement">
-        <h2>
-            کشف مفهوم لختی یا اینرسی
-        </h2>
-        <p>
-            او درک کرد که یک جسم در حال حرکت، تمایل دارد به حرکت خود در یک خط راست و با سرعت ثابت ادامه دهد، مگر اینکه
-            یک نیروی خارجی (مثل اصطکاک یا جاذبه) آن را متوقف کند. این مفهوم بعدها به عنوان قانون اول حرکت نیوتن ثبت شد.
-        </p>
-    </div>
-
-    <br>
     <div class="question">
         <h2></h2>
     </div>

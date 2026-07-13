@@ -9,7 +9,6 @@
     background-position: center;
     min-height: 335px;
     margin-top: 40px;
-    width: 100%;
     padding-top: 130px;
 }
 
@@ -25,14 +24,13 @@
 }
 
 .banner-right h1 {
-    margin-left: 150px;
     font-weight: bold;
     font-size: 50px;
 }
 
 .banner-right p {
     margin-top: -20px;
-    margin-right: 60px;
+    margin-left: 700px;
     margin-bottom: 5px;
     float: right;
     font-weight: bold;
