@@ -163,6 +163,10 @@
     margin-inline: auto;
 }
 
+.card-info a {
+    text-decoration: none;
+}
+
 .body-text{
     direction: rtl;
     margin-left: 80px;

@@ -97,6 +97,10 @@
     padding: 0 40px 0px 40px;
 }
 
+.card-info a {
+    text-decoration: none;
+}
+
 .card-info button{
     background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
     border-radius: 25px;

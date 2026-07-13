@@ -110,6 +110,10 @@
     cursor: pointer;
 }
 
+.card-info a {
+    text-decoration: none;
+}
+
 .belt{
     width: 97%;
     height: auto;

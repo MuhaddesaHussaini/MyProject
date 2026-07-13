@@ -135,6 +135,29 @@
     padding: 0 15px 15px 15px;
 }
 
+.card-info button {
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-inline: auto;
+}
+
+.card-info a {
+    text-decoration: none;
+}
+
+.card-info button:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
 .body-text{
     direction: rtl;
     margin-left: 80px;

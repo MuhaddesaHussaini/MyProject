@@ -49,7 +49,7 @@
 }
 
 .section-title {
-    margin-top: -100px;
+    margin-top: -150px;
     color: #5b00b7;
 }
 
@@ -57,9 +57,8 @@
     font-size: 32px;
     margin-bottom: 10px;
     direction: rtl;
-    ;
     text-align: right;
-    margin-right: 80px;
+    margin-right: 50px;
 }
 
 .section-title p {
@@ -68,8 +67,31 @@
     font-size: 18px;
     gap: 5px;
     text-align: right;
-    margin-right: 80px;
+    margin-right: 50px;
     direction: rtl;
+}
+
+.card-info button {
+    background: linear-gradient(135deg, rgb(250, 0, 159), #7f00ff, #001f3f);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-inline: auto;
+}
+
+.card-info a {
+    text-decoration: none;
+}
+
+.card-info button:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {
