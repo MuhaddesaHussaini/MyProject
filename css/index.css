@@ -36,6 +36,7 @@
     border: none;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.9);
     cursor: pointer;
+    visibility: visible;
 }
 
 .gallery a {
@@ -539,8 +540,29 @@ input[type="search"]:focus {
         width: 100%;
     }
 
+    .nav img {
+        width: 130px;
+        display: flex;
+        float: right;
+        margin-right: 10px;
+        margin-top: -30px;
+    }
+
     .menubar {
         display: none;
+    }
+
+    .gallery {
+        visibility: hidden;
+    }
+
+    .nav input {
+        width: 80px;
+        height: 32px;
+        margin-left: -80px;
+        border: 3px solid transparent;
+        box-shadow: 0 0 0 0.8px black;
+        border-radius: 20px;
     }
 
     .banner {
@@ -560,15 +582,15 @@ input[type="search"]:focus {
     }
 
     .banner-right button {
-    margin-top: 20px;
-    background: #000;
-    color: #fff;
-    border: 3px solid transparent;
-    border-image: var(--border-color);
-    width: 110px;
-    height: 35px;
-    margin-left: 300px;
-}
+        margin-top: 20px;
+        background: #000;
+        color: #fff;
+        border: 3px solid transparent;
+        border-image: var(--border-color);
+        width: 110px;
+        height: 35px;
+        margin-left: 300px;
+    }
 
     .card-wrapper {
         display: grid;
@@ -578,8 +600,8 @@ input[type="search"]:focus {
     }
 
     .card-info button {
-    width: 200px;
-}
+        width: 200px;
+    }
 
     .footer {
         display: flex;
@@ -620,10 +642,4 @@ input[type="search"]:focus {
         text-align: center;
         padding-right: 90px
     }
-}
-
-
-
-@media (max-width: 300px) {
-    
 }
